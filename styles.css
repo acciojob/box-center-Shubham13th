@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+.centered-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    color: purple;
+    text-align: center;
+    line-height: 200px; /* Centers text vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
